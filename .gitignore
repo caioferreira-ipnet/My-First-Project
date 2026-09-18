@@ -2,3 +2,25 @@
 .github/
 .vscode/
 .mypy_cache/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+
+# Credentials and private keys
+credentials.json
+secrets.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases and dumps
+*.db
+*.sqlite
+*.sqlite3
+*.sql.gz
