@@ -1,4 +1,1 @@
-.venv*
-.github*
-.vscode*
-.mypy_cache*
+*
